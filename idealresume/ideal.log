@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (Web2C 2020) (preloaded format=xelatex 2021.3.20)  7 APR 2021 14:48
+This is XeTeX, Version 3.14159265-2.6-0.999992 (Web2C 2020) (preloaded format=xelatex 2021.3.20)  28 APR 2021 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**idealresume.tex
-(./idealresume.tex
+**ideal.tex
+(./ideal.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-06>
 (/usr/pkg/share/texmf-dist/tex/latex/base/article.cls
@@ -81,9 +81,8 @@ File: l3backend-xetex.def 2021-02-06 L3 backend support: XeTeX
 \g__pdf_backend_object_int=\count189
 \g__pdf_backend_annotation_int=\count190
 \g__pdf_backend_link_int=\count191
-)
-No file idealresume.aux.
-\openout1 = `idealresume.aux'.
+) (./ideal.aux)
+\openout1 = `ideal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -96,6 +95,7 @@ LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 1.
+
 (/usr/pkg/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -146,44 +146,40 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 12.
 
-Overfull \hbox (12.00002pt too wide) in alignment at lines 27--46
+Overfull \hbox (12.00002pt too wide) in alignment at lines 27--34
 []
  []
 
 
-Overfull \hbox (2.31879pt too wide) in paragraph at lines 12--48
+Overfull \hbox (2.31879pt too wide) in paragraph at lines 12--36
 [][]
  []
 
 
-Overfull \hbox (2.21999pt too wide) in paragraph at lines 12--48
+Overfull \hbox (2.21999pt too wide) in paragraph at lines 12--36
 []  
  []
 
 
-Overfull \hbox (5.93253pt too wide) in alignment at lines 49--187
+Overfull \hbox (5.93253pt too wide) in alignment at lines 37--151
 [][]
+ []
+
+
+Overfull \hbox (14.3188pt too wide) in alignment at lines 155--178
+[][][]
  []
 
 [1
 
-]
-Overfull \vbox (21.79987pt too high) has occurred while \output is active []
-
-
-[2]
-Overfull \hbox (14.3188pt too wide) in alignment at lines 191--214
-[][][]
- []
-
-[3] (./idealresume.aux) ) 
+] (./ideal.aux) ) 
 Here is how much of TeX's memory you used:
- 1633 strings out of 479210
- 26643 string characters out of 5875376
- 335268 words of memory out of 5000000
+ 1635 strings out of 479210
+ 26615 string characters out of 5875376
+ 338247 words of memory out of 5000000
  21257 multiletter control sequences out of 15000+600000
  403494 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,14n,74p,169b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,14n,74p,163b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on idealresume.pdf (3 pages).
+Output written on ideal.pdf (1 page).
