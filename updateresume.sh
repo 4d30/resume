@@ -13,5 +13,12 @@ if [ ! -d ./$1 ]; then
 fi
 
 sed -e "s/YOURCOMPANY/$(printf %s $1)/g" resume_GENERIC.tex |\
+sed -e "s/WHATIAM/$(printf %s $3)/g" resume_GENERIC.tex |\
+sed -e "s/DOTHETHING/$(printf %s $4)/g" resume_GENERIC.tex |\
 sed -e "s/THEROLE/$(printf %s $2)/g" >  ${FILEPATH}.tex
 xelatex -output-directory=${COMPANY_DIR} ${FILEPATH}.tex
+
+
+
+sed -e "s/YOURCOMPANY/$(printf %s $1)/g" shortmsg.txt |\
+sed -e "s/THEROLE/$(printf %s $2)/g" 
