@@ -28,5 +28,14 @@ sed -e "s/DOTHETHING/$(printf %s $4)/g" |\
 sed -e "s/THEROLE/$(printf %s $2)/g" >  ${LETTERPATH}.tex
 xelatex -output-directory=${COMPANY_DIR} ${LETTERPATH}.tex
 
-sed -e "s/YOURCOMPANY/$(printf %s $1)/g" shortmsg.txt |\
-sed -e "s/THEROLE/$(printf %s $2)/g" 
+rm ${COMPANY_DIR}/*.log
+rm ${COMPANY_DIR}/*.aux
+
+./strip_tex.sh ${LETTERPATH}.tex | fmt > ${LETTERPATH}.txt
+
+sed -n '25,$p' ${LETTERPATH}.txt
+
+
+
+#sed -e "s/YOURCOMPANY/$(printf %s $1)/g" shortmsg.txt |\
+#sed -e "s/THEROLE/$(printf %s $2)/g" 
