@@ -32,10 +32,7 @@ rm -f ${COMPANY_DIR}/*.log
 rm -f ${COMPANY_DIR}/*.aux
 
 ./strip_tex.sh ${LETTERPATH}.tex | fmt > ${LETTERPATH}.txt
+./mkasciiresume.sh ${FILEPATH}.tex > ${FILEPATH}.txt
 
 sed -n '25,$p' ${LETTERPATH}.txt
 
-
-
-#sed -e "s/YOURCOMPANY/$(printf %s $1)/g" shortmsg.txt |\
-#sed -e "s/THEROLE/$(printf %s $2)/g" 
